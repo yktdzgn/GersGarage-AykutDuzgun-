@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'FuturaStdMedium';
+    src: url('../fonts/FuturaStdMedium.eot');
+    src: url('../fonts/FuturaStdMedium.eot') format('embedded-opentype'), url('../fonts/FuturaStdMedium.woff2') format('woff2'), url('../fonts/FuturaStdMedium.woff') format('woff'), url('../fonts/FuturaStdMedium.ttf') format('truetype'), url('../fonts/FuturaStdMedium.svg#FuturaStdMedium') format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaStdLight';
+    src: url('../fonts/FuturaStdLight.eot');
+    src: url('../fonts/FuturaStdLight.eot') format('embedded-opentype'), url('../fonts/FuturaStdLight.woff2') format('woff2'), url('../fonts/FuturaStdLight.woff') format('woff'), url('../fonts/FuturaStdLight.ttf') format('truetype'), url('../fonts/FuturaStdLight.svg#FuturaStdLight') format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaStdBook';
+    src: url('../fonts/FuturaStdBook.eot');
+    src: url('../fonts/FuturaStdBook.eot') format('embedded-opentype'), url('../fonts/FuturaStdBook.woff2') format('woff2'), url('../fonts/FuturaStdBook.woff') format('woff'), url('../fonts/FuturaStdBook.ttf') format('truetype'), url('../fonts/FuturaStdBook.svg#FuturaStdBook') format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaStdBold';
+    src: url('../fonts/FuturaStdBold.eot');
+    src: url('../fonts/FuturaStdBold.eot') format('embedded-opentype'), url('../fonts/FuturaStdBold.woff2') format('woff2'), url('../fonts/FuturaStdBold.woff') format('woff'), url('../fonts/FuturaStdBold.ttf') format('truetype'), url('../fonts/FuturaStdBold.svg#FuturaStdBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MuliRegular';
+    src: url('../fonts/MuliRegular.eot');
+    src: url('../fonts/MuliRegular.eot') format('embedded-opentype'), url('../fonts/MuliRegular.woff2') format('woff2'), url('../fonts/MuliRegular.woff') format('woff'), url('../fonts/MuliRegular.ttf') format('truetype'), url('../fonts/MuliRegular.svg#MuliRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MuliBold';
+    src: url('../fonts/MuliBold.eot');
+    src: url('../fonts/MuliBold.eot') format('embedded-opentype'), url('../fonts/MuliBold.woff2') format('woff2'), url('../fonts/MuliBold.woff') format('woff'), url('../fonts/MuliBold.ttf') format('truetype'), url('../fonts/MuliBold.svg#MuliBold') format('svg');
+}
+
+@font-face {
+    font-family: 'MuliBlack';
+    src: url('../fonts/MuliBlack.eot');
+    src: url('../fonts/MuliBlack.eot') format('embedded-opentype'), url('../fonts/MuliBlack.woff2') format('woff2'), url('../fonts/MuliBlack.woff') format('woff'), url('../fonts/MuliBlack.ttf') format('truetype'), url('../fonts/MuliBlack.svg#MuliBlack') format('svg');
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    /* font-family: 'PT Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'MuliRegular';
+    color: #000000;
+    line-height: 1.6;
+    /* background: #f0f2f5; */
+}
+
+.btn-custom {
+    background: #017baa !important;
+    color: #ffffff !important;
+    border: 1px solid transparent !important;
+}
+
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box !important;
+}
+ /* Add a black background color to the top navigation */
+ .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  body{
+      background-color:rgb(180, 176, 176)
+  }
+  
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #ffffff;
+    color: rgb(27, 26, 26);
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+
+  .title{
+    float: left;
+    color: white;
+    padding-left: 2.5%;
+  }
+
+  .techn_img{
+      padding-top: 3%;
+      text-align: center;
+  }
+
+  body p{
+    padding-left: 30%;
+    text-align: center;
+    padding-right:30%;
+  }
+
+  body h2{
+    text-align: center;
+  }
+
+  body h1{
+      padding-top: 3%;
+      text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .inline{
+    display: inline;
+  }
